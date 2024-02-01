@@ -1,0 +1,9 @@
+{
+  "name": "@test/ado",
+  "version": "1.0.0",
+  "description": "Test Ado",
+  "main": "dist/main.js",
+  "author": "Madiou<mmadioubah@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
