@@ -10,6 +10,7 @@
         "test:watch": "jest --watch",
         "build": "cross-env NODE_ENV=production webpack",
         "test": "cross-env NODE_ENV=testing jest --testTimeout=10000",
+        "start": "cross-env NODE_ENV=production node dist/main.bundle.js",
         "dev": "NODE_ENV=development webpack --progress --profile --color",
         "test:e2e": "cross-env NODE_ENV=testing jest --config ./tests/e2e/jest-e2e.json --watch --runInBand --detectOpenHandles"
     },
